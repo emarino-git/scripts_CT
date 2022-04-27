@@ -55,22 +55,22 @@
         <!--Add few elements to the form-->
 
         <div>
+            <input type="text" id="punto" placeholder="Punto TLC" />
+        </div>
+        <div>
             <input type="text" id="cabecera1" placeholder="Cabecera 1" />
         </div>
         <div>
             <input type="text" id="cabecera2" placeholder="Cabecera 2" />
         </div>
         <div>
-            <input type="text" id="punto" placeholder="Punto TLC" />
+            <input type="text" id="ipLan" placeholder="IP Switch" />
+        </div>
+        <div>
+            <input type="text" id="ipGW" placeholder="GW Switch" />
         </div>
         <div>
             <input type="text" id="ipSystem" placeholder="IP System" />
-        </div>
-        <div>
-            <input type="text" id="ipLan" placeholder="IP Lan" />
-        </div>
-        <div>
-            <input type="text" id="ipGW" placeholder="Gateway" />
         </div>
         <div>
             <select id="selVLAN">
@@ -101,7 +101,6 @@
         const ipSystem = document.getElementById('ipSystem').value
         const ipLan = document.getElementById('ipLan').value
         const ipGW = document.getElementById('ipGW').value
-        
         
         // This variable stores all the data.
         let data = 
